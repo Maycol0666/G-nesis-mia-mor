@@ -1,0 +1,29 @@
+# Create a new Git repository
+git init declaration-of-love
+# Change into the repository directory
+cd declaration-of-love
+# Create a new README file
+echo "# Declaration of Love" > README.md
+# Add an initial commit
+git add README.md
+git commit -m "Initial commit: Declaring my love to the world"
+# Add more commit messages with expressions of love
+echo "I love you more than words can express." > love-message.txt
+git add love-message.txt
+git commit -m "Commit 1: Expressing my feelings"
+echo "You're my heart's desire, my forever." >> love-message.txt
+git add love-message.txt
+git commit -m "Commit 2: You're my heart's desire"
+echo "No one else could ever take your place." >> love-message.txt
+git add love-message.txt
+git commit -m "Commit 3: You're irreplaceable"
+echo "I love you endlessly and with all my heart." >> love-message.txt
+git add love-message.txt
+git commit -m "Commit 4: An endless love"
+echo "Together forever, with you by my side." >> love-message.txt
+git add love-message.txt
+git commit -m "Commit 5: Together forever"
+# Push to GitHub (replace the URL with your repository's URL)
+git remote add origin https://github.com/your-username/declaration-of-love.git
+git branch -M main
+git push -u origin main
